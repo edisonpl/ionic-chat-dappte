@@ -12,7 +12,7 @@ var io = require('socket.io')(server);
 //Connect to the MongoDB Server
 //mongoose.connect('mongodb://localhost/diliva');
 
-mongoose.connect('mongodb://<edison.pl>:<Qweqwe21101993>@ds131511.mlab.com:31511/diliva');
+mongoose.connect('mongodb://<edison>:<Qweqwe123>@ds131511.mlab.com:31511/diliva');
 
 
 /*Create Schemas*/

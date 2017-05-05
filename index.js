@@ -1,8 +1,10 @@
 /**
  * Created by imac on 12/29/15.
  */
-var express = require('express');
-var mongoose = require('mongoose');
+
+import express from 'express'
+import mongoose from 'mongoose'
+
 var app = express();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);

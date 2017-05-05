@@ -2,6 +2,9 @@
   "name": "ionic-chat-dappte",
   "main": "index.js",
   "version": "0.0.1",
+    "engines": {
+    "node": "6.10.2"
+  },
   "dependencies": {
     "express": "^4.15.2",
     "mongodb": "^2.2.26",

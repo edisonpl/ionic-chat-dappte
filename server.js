@@ -10,10 +10,10 @@ var io = require('socket.io')(server);
 
 
 //Connect to the MongoDB Server
-mongoose.connect('mongodb://localhost/diliva');
+//mongoose.connect('mongodb://localhost/diliva');
 
 
-//mongoose.connect('mongodb://edison:Qweqwe123@ds131621.mlab.com:31621/heroku_2r85dh6q');
+mongoose.connect('mongodb://edison:Qweqwe123@ds131621.mlab.com:31621/heroku_2r85dh6q');
 
 
 /*Create Schemas*/

@@ -1,10 +1,8 @@
 /**
  * Created by imac on 12/29/15.
  */
-
-import express from 'express'
-import mongoose from 'mongoose'
-
+var express = require('express');
+var mongoose = require('mongoose');
 var app = express();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
@@ -12,9 +10,7 @@ var io = require('socket.io')(server);
 
 
 //Connect to the MongoDB Server
-//mongoose.connect('mongodb://localhost/diliva');
-
-mongoose.connect('mongodb://<edison>:<Qweqwe123>@ds131621.mlab.com:31621/heroku_2r85dh6q');
+mongoose.connect('mongodb://localhost/diliva');
 
 
 /*Create Schemas*/
@@ -269,9 +265,10 @@ io.on('connection', function(socket){
 
 /**** Bootup the Server ****/
 
-
-app.listen(process.env.PORT || 8000, function(){
-  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+var port = process.env.PORT || 1227;
+server.listen(port, function(err){
+    if(err) throw err;
+    console.log("Server now running at port: "+port);
 });
 
 

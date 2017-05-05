@@ -1,29 +1,26 @@
 {
-  "name": "ionic-chat-dappte",
-  "main": "server.js",
-  "version": "0.0.1",
-    "engines": {
+  "name": "node-js-getting-started",
+  "version": "0.2.6",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
     "node": "6.10.2"
   },
-  "dependencies": {
-    "express": "^4.15.2",
-    "mongodb": "^2.2.26",
-    "mongoose": "latest",
-    "morgan": "latest",
-    "socket.io": "latest"
-  },
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.5.6",
+    "express": "4.15.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edisonpl/ionic-chat-dappte.git"
+    "url": "https://github.com/heroku/node-js-getting-started"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/edisonpl/ionic-chat-dappte/issues"
-  },
-  "homepage": "https://github.com/edisonpl/ionic-chat-dappte#readme",
-  "description": ""
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }

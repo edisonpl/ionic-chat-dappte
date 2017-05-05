@@ -1,0 +1,26 @@
+{
+  "name": "ionic-chat-dappte",
+  "main": "index.js",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "socket.io": "latest"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edisonpl/ionic-chat-dappte.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edisonpl/ionic-chat-dappte/issues"
+  },
+  "homepage": "https://github.com/edisonpl/ionic-chat-dappte#readme",
+  "description": ""
+}

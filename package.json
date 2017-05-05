@@ -12,7 +12,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/edisonpl/ionic-chat-dappte.git"

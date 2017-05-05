@@ -1,5 +1,5 @@
 //Importamos Express tras instalarlo vía NPM
-import express from 'express'
+var express = require('express');
 
 // Definimos App como la función del módulo Express
 const App = express()

@@ -267,10 +267,9 @@ io.on('connection', function(socket){
 
 /**** Bootup the Server ****/
 
-var port = process.env.PORT || 8000;
-server.listen(port, function(err){
-    if(err) throw err;
-    console.log("Server now running at port: "+port);
+
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
 
 

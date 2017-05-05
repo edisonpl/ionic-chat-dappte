@@ -11,7 +11,11 @@
   },
   "dependencies": {
     "ejs": "2.5.6",
-    "express": "4.15.2"
+    "express": "4.15.2",
+    "mongodb": "^2.2.26",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "socket.io": "latest"
   },
   "repository": {
     "type": "git",
@@ -20,7 +24,10 @@
   "keywords": [
     "node",
     "heroku",
-    "express"
+    "express",
+    "mongodb",
+    "mongoose",
+    "socket.io"
   ],
   "license": "MIT"
 }
